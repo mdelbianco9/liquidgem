@@ -1,0 +1,132 @@
+body {
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 0;
+	background-color: #f7f1f0;
+	background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+	}
+
+
+nav {
+	border: 2px double #201c22;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+	margin-left: 1.5%; 
+	margin-right: 1.5%;
+}
+
+ul {
+	display: inline-block;
+	width: 70%;
+	padding: 30px;
+	padding-left: 20px;
+	padding-right: 0px;
+}
+/*left side of nav bar */
+.leftnav {
+	/*border: 1px solid green;*/
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+}
+
+/* us to change words directly*/
+.rightnav li {
+	color: #201c22;
+	display: inline-block; 
+	margin-right: 10%;
+	font-size: large;
+}
+/*right side of nav bar*/
+.rightnav {
+	display: inline-block;
+	width: 75%;
+	height: 100%;
+	text-align: right;
+}
+/* DIAMOND ICON */
+.leftnav i {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	color: rgb(173, 44, 0); 
+	margin-left: 3%;
+}
+/* liquid gem writing */
+.leftnav h2 {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	color: #201c22;
+	font-style: italic;
+}
+/* -----head section ---- */
+
+#head {
+	/*border: 1px solid white;*/
+	height: 550px;
+	padding-top: 3%;
+}
+
+h1.name {
+	/*border: 1px solid yellow;*/
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+/* smaller font writing */
+h1.name .small {
+	font-size: medium;
+}
+/*color of my name */
+h1.name .myname {
+	color: rgb(173, 44, 0); 
+}
+img {
+	border-radius: 15px;
+	margin-top: 2%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+img:hover{
+	box-shadow: none;
+}
+
+/* MIDDLE OF PAGE */
+
+#belly {
+	height: 800px;
+	width: 100%;
+	margin-top: 1%;
+}
+/* boxes for about and my work*/
+.intro {
+	border: 1px solid pink;
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	padding: 2%;
+	padding-top: 0%;
+}
+/*  H1   */
+.intro h1 {
+	letter-spacing: 1px;
+	color: rgb(173, 44, 0); 
+}
+/*  P   */
+.intro p {
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+.picbox {
+	border: 1px solid yellow;
+	height: 70%;
+}
+
+.pic {
+	display: inline-block;
+}
+
