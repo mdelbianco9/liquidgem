@@ -97,13 +97,13 @@ img:hover{
 /* MIDDLE OF PAGE */
 
 #belly {
-	height: 800px;
+	height: 1000px;
 	width: 100%;
 	margin-top: 1%;
 }
 /* boxes for about and my work*/
 .intro {
-	border: 1px solid pink;
+	/*border: 1px solid pink;*/
 	display: inline-block;
 	width: 45%;
 	text-align: center;
@@ -122,11 +122,35 @@ img:hover{
 }
 
 .picbox {
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 	height: 70%;
 }
 
+.pic h2, h4 {
+	/*border: 1px solid green;*/
+	text-align: center;
+	margin: 0;
+	/*background-color: #eef4f4;*/
+}
+
+.pic h4 {
+	color: rgb(173, 44, 0); 
+
+}
+
+
 .pic {
 	display: inline-block;
+	/*border: 1px solid yellow;*/
+	width: 17%;
+	height: 205px;
+	margin: 1%;
+	box-shadow: 10px 10px 5px grey; 
+	border-radius: 15px;
+}
+/* sets the size of the pictures inside the div!!1 VERY IMPORTANT!! */
+.pic img {
+	width: 100%;
+	height: 75%;
 }
 
