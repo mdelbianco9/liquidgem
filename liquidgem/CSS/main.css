@@ -84,7 +84,7 @@ h1.name .small {
 h1.name .myname {
 	color: rgb(173, 44, 0); 
 }
-img {
+.sunset {
 	border-radius: 15px;
 	margin-top: 2%;
 	box-shadow: 10px 10px 5px grey;
@@ -97,7 +97,6 @@ img:hover{
 /* MIDDLE OF PAGE */
 
 #belly {
-	height: 1000px;
 	width: 100%;
 	margin-top: 1%;
 }
@@ -120,37 +119,98 @@ img:hover{
 	letter-spacing: 1px;
 	word-spacing: 3px;
 }
-
+/* dont really ned this but it contains the div that has all the pictures */
 .picbox {
 	/*border: 1px solid yellow;*/
-	height: 70%;
+	/*height: 70%;*/
 }
-
-.pic h2, h4 {
+/*basic propertis of headings */
+.pic h2 {
 	/*border: 1px solid green;*/
 	text-align: center;
 	margin: 0;
-	/*background-color: #eef4f4;*/
+	color: rgb(173, 44, 0);
 }
 
-.pic h4 {
-	color: rgb(173, 44, 0); 
-
-}
-
-
+/* this sets the size and properties of each div box that contains the images and headings */
 .pic {
 	display: inline-block;
 	/*border: 1px solid yellow;*/
-	width: 17%;
-	height: 205px;
-	margin: 1%;
-	box-shadow: 10px 10px 5px grey; 
+	width: 205px;
+	height: 255px;
+	margin: 7px; 
+	margin-bottom: 2%;
 	border-radius: 15px;
+	background-color: #e8e9eb;
+
+
 }
 /* sets the size of the pictures inside the div!!1 VERY IMPORTANT!! */
 .pic img {
-	width: 100%;
-	height: 75%;
+	width: 205px;
+	height: 205px;
+	border-radius: 15px;
+	box-shadow: 0px 10px 5px grey;
 }
+
+.pic img:hover{
+	box-shadow: none;
+}
+
+/* CONTACT SECTION  */
+
+footer {
+	background-color: #212121;
+	height: 300px;
+}
+
+.contact {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	width: 40%;
+	margin-top: 5%;
+	height: 60%;
+	padding-left: 1%;
+}
+
+.contact input {
+	display: block;
+	width: 80%;
+	margin: 1%;
+}
+
+.message {
+	height: 25%;
+}
+
+.contact button {
+	margin-top: 1%;
+	background-color: #212121;
+	color: #fff;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+.contact h1 {
+	color: rgb(173, 44, 0);
+}
+
+.icons {
+	/*border: 1px solid white;*/
+	display: inline-block;
+	width: 10%;
+	margin-left: 90%;
+	margin-bottom: 30%;
+}
+
+.icons i {
+	border: 1px solid rgb(173, 44, 0);
+	background-color: rgb(173, 44, 0);
+	border-radius: 50%;
+	margin: 2%;
+	padding: 2%;
+
+}
+
+
 
